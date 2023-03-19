@@ -1,0 +1,45 @@
+.wrapper {
+    max-width: 736px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.addNewTaskContainer {
+    display: flex;
+    gap: 8px;
+    margin-top: -30px;
+}
+
+.tasks {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.tasksInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tasksCreated {
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.tasksCreated span,
+.completedTasks span {
+    background-color: var(--gray-400);
+    color: var(--gray-100);
+    border-radius: 50px;
+    padding: 2px 8px;
+    font-size: 12px;
+}
+
+.completedTasks {
+    color: var(--purple);
+    font-weight: 700;
+    font-size: 14px;
+
+}
